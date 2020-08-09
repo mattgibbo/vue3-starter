@@ -1,0 +1,41 @@
+* {
+  box-sizing:  border-box;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  background-color: #e4ecf0;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font: 400 calc(10px + .225vw)/1.5 $font--main;
+}
+
+a {
+  color: #2038a1;
+
+  &:visited {
+    color: #46a;
+  }
+
+  &:hover {
+    color: #58d;
+    text-decoration: none;
+  }
+}
+
+button,
+input {
+  font-size: 1em;
+}
+
+img {
+  max-width: 100%;
+}

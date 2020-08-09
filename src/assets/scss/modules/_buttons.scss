@@ -1,0 +1,45 @@
+.btn {
+    background-color: #445;
+    border: 0;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1em;
+    padding: .75em 1.25em;
+    text-decoration: none;
+
+    ~ .btn {
+        margin-left: .5em;
+    }
+
+    &--1 {
+        background-color: #41b883;
+    }
+
+    &--2 {
+        background-color: hsl(229, 43%, 46%);
+    }
+
+    &--i {
+        background-color: transparent;
+
+        &:hover {
+            background-color: rgba(255, 255, 255, .5);
+        }
+    }
+}
+
+.btn--logout {
+    // color: #333;
+    font-size: .9em;
+    padding: 1em;
+    text-decoration: none;
+
+    svg {
+        height: 1.325em;
+        margin-left: .25em;
+        vertical-align: text-top;
+        width: 1.325em;
+    }
+}
