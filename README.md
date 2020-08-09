@@ -27,7 +27,7 @@ I've added a very basic api connection to show how to use PHP within your Vue pr
 If that's not the case you can update this for your setup in /vue.config.js by changing the value of the "target" property to your local setup.
 
 ## Building for production ##
-Running the following command will build a production version using Webpack.
+Running the following command will build a production version.
 
 ```
 npm run build
