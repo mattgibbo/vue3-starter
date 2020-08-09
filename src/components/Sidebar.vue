@@ -58,8 +58,8 @@ export default {
     changeUrl(e) {
       let url = e.currentTarget.getAttribute("href");
 
-      if (url.includes('https://')) {
-        window.open(url, '_blank');
+      if (url.includes("https://")) {
+        window.open(url, "_blank");
       } else {
         this.$router.push(url);
       }
