@@ -39,3 +39,60 @@ input {
 img {
   max-width: 100%;
 }
+
+h1 {
+  font-size: 3em;
+  font-weight: 300;
+  margin: 0 0 1rem;
+}
+
+.dis--grid {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.col {
+  // This generates the col--span1 to col--span12 classes
+  @for $i from 1 through 12 {
+      &--span#{$i} {
+          grid-column: span $i;
+      }
+  }
+}
+
+.mar {
+  &--0 {
+    margin: 0;
+  }
+
+  &-b {
+    margin-bottom: 2em;
+  }
+
+  &-t {
+    margin-top: 2em;
+
+    &--s {
+      margin-top: 1em;
+    }
+  }
+}
+
+.pad {
+  padding: 1em 1.5em;
+
+  &--l {
+    padding: 2em;
+  }
+}
+
+.ta {
+  &--c {
+    text-align: center;
+  }
+}
+
+.card {
+  background: #fff;
+}

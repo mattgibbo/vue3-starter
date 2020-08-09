@@ -1,5 +1,7 @@
 <template>
-  <div class="col--span2">
+  <div class="card col--span2 pad">
+    <img src="@/assets/logo.png" alt="Vue" class="pad" />
+
     <div v-for="linkList in navList" :key="linkList.id">
       <h4>{{ linkList.title }}</h4>
       <ul>
@@ -23,6 +25,11 @@ export default {
           id: "links",
           title: "Links",
           links: [
+            {
+              id: "home",
+              title: "Home",
+              url: "/"
+            },
             {
               id: "about",
               title: "About",
@@ -67,3 +74,25 @@ export default {
   }
 };
 </script>
+
+/* Scoped means the style will only apply to this component */
+<style lang="scss" scoped>
+h4 {
+  color: #666;
+  font-size: 1.25em;
+  font-weight: 400;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  a {
+    display: block;
+    padding: .5em 1em;
+  }
+}
+</style>
