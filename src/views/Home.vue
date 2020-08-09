@@ -6,8 +6,16 @@
         <h1>{{ title }}</h1>
 
         <div class="mar-b">
-          <button type="button" class="btn btn--1" @click="updatePageTitle()">Test API by updating page title with testFunction</button>
-          <button type="button" class="btn btn--2" @click="updatePageTitleTwo()">Test API by updating page title with default function</button>
+          <button type="button" class="btn btn--1" @click="updatePageTitle()">
+            Test API by updating page title with testFunction
+          </button>
+          <button
+            type="button"
+            class="btn btn--2"
+            @click="updatePageTitleTwo()"
+          >
+            Test API by updating page title with default function
+          </button>
         </div>
       </div>
 
@@ -15,28 +23,28 @@
         <h2 class="mar--0">The Author</h2>
 
         <p>
-          <strong>Github Profile:</strong> 
+          <strong>Github Profile:</strong>
           <a href="https://github.com/mattgibbo" target="_blank">
             https://github.com/mattgibbo
           </a>
         </p>
 
         <p>
-          <strong>Github Project:</strong> 
+          <strong>Github Project:</strong>
           <a href="https://github.com/mattgibbo/vue3-starter" target="_blank">
             https://github.com/mattgibbo/vue3-starter
           </a>
         </p>
 
         <p>
-          <strong>Website:</strong> 
+          <strong>Website:</strong>
           <a href="https://www.mattgibbins.com" target="_blank">
             www.mattgibbins.com
           </a>
         </p>
 
         <p>
-          <strong>Twitter:</strong> 
+          <strong>Twitter:</strong>
           <a href="https://www.twitter.com/_mattgibbo" target="_blank">
             www.twitter.com/_mattgibbo
           </a>

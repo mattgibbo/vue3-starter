@@ -5,7 +5,10 @@
       <h1>{{ title }}</h1>
 
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste alias laudantium et dolorum ipsum, ad reprehenderit saepe? Molestias quibusdam dolore, quisquam nesciunt culpa illo iusto quas similique temporibus velit distinctio!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste alias
+        laudantium et dolorum ipsum, ad reprehenderit saepe? Molestias quibusdam
+        dolore, quisquam nesciunt culpa illo iusto quas similique temporibus
+        velit distinctio!
       </p>
     </div>
   </div>
@@ -24,5 +27,5 @@ export default {
       title: "About Page"
     };
   }
-}
+};
 </script>
